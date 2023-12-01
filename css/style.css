@@ -120,15 +120,17 @@ a:hover{
 }
 
 .cards{
- overflow: hidden;
+    overflow: hidden;
     background-color: #fff;
-    margin: 10px 390px;
+    margin: 10px 250px;
+    width: 1500px;
+    height: 400px;
 } 
 .cardNew{
-    height: 270px;
-    width: 240px;
+    height: 500px;
+    width: 350px;
     margin: 35px 0px 10px 25px;
-    text-align: justify;
+    
     float: left;
     overflow: hidden;
 }
@@ -137,17 +139,59 @@ a:hover{
 }
 .cardNew h2{
     color: rgb(158, 143, 143);
-    font-size: 15px;
+    font-size: 20px;
     margin-top: 20px;
     margin-bottom: 5px;
     
 }
 .cardNew h3{
     color: #000;
-    font-size: 13px;
+    font-size: 19px;
 }
 .cardNew img:hover{
-    height: 185px;
+    height: 255px;
     width:335px;
 
+}
+.cardNew img{
+    width: 330px;
+}
+.info{
+    background-color: #fff;
+    overflow: hidden;
+}
+.text{
+    width: 600px;
+    height: 500px;
+    float: left;
+    margin: 150px 5px 0px 300px;
+    font-size: 23px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.text h2{
+    margin-bottom: 20px;
+}
+.text a{
+    border: 13px solid rgb(84,214,24);
+    border-radius: 15px;
+    background-color: rgb(84, 214, 24);
+    font-size: 20px;
+}
+.text p{
+    margin-bottom: 35px;
+    font-size: 22px;
+}
+.imgInfo{
+    float: right;
+    overflow: hidden;
+    margin: 110px 50px 0px 0px;
+}
+.imgInfo img{
+    width: 850px;
+    height: 600px;
+    float: right;
+}
+.bannerPie{
+    overflow: hidden;
+    
 }
